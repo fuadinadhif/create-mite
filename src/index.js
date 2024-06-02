@@ -82,6 +82,8 @@ import { fileURLToPath } from "url";
     if (error.code === "ENOENT") {
       console.log("Creating directory...");
       await fs.mkdir(targetDir);
+      console.log("Finished creating directory. \n");
+      console.log("Creating project...");
       await makeProject(sourceDir, targetDir);
       await renamePackageJSON(targetDir, projectName);
       console.log("Project created successfully. \n");
