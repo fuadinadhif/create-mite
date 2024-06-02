@@ -1,0 +1,15 @@
+{
+  "name": "create-mite",
+  "version": "1.0.0",
+  "description": "Minimal scaffolding for a React project using Vite.js.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "create-mite": "./src/index.js"
+  },
+  "author": "Nadhif Fuadi <nadhiffuadi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
