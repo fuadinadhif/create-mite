@@ -7,6 +7,9 @@
   "bin": {
     "create-mite": "./src/index.js"
   },
+  "scripts": {
+    "prepublishOnly": "npm install"
+  },
   "files": [
     "./src/index.js",
     "./template/**/*"
