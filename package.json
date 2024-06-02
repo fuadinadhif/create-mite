@@ -7,7 +7,25 @@
   "bin": {
     "create-mite": "./src/index.js"
   },
-  "author": "Nadhif Fuadi <nadhiffuadi@gmail.com>",
+  "files": [
+    "./src/index.js",
+    "./templates/**/*"
+  ],
+  "keywords": [
+    "minimal",
+    "bare",
+    "vite.js",
+    "react",
+    "scaffolding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuadinadhif/create-mite"
+  },
+  "author": {
+    "name": "Nadhif Fuadi",
+    "email": "nadhiffuadi@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "prompts": "^2.4.2"
