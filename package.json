@@ -1,14 +1,11 @@
 {
   "name": "create-mite",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Minimal scaffolding for a React project using Vite.js.",
   "type": "module",
   "main": "./src/index.js",
   "bin": {
     "create-mite": "./src/index.js"
-  },
-  "scripts": {
-    "prepublishOnly": "npm install"
   },
   "files": [
     "./src/index.js",
